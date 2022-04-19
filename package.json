@@ -1,0 +1,29 @@
+{
+  "name": "nodejs-express-proxy",
+  "version": "1.0.0",
+  "description": "Build your own simple Node.js proxy server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BRAVO68WEB/nodejs-express-proxy.git"
+  },
+  "keywords": [
+    "proxy",
+    "proxy-app",
+    "express"
+  ],
+  "author": "Bravo68Web",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BRAVO68WEB/nodejs-express-proxy/issues"
+  },
+  "homepage": "https://github.com/BRAVO68WEB/nodejs-express-proxy#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "http-proxy-middleware": "^2.0.5",
+    "morgan": "^1.10.0"
+  }
+}
